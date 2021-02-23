@@ -1,12 +1,16 @@
 # BC-Demo
 
+https://jasons-store1.mybigcommerce.com/
+
 Preview code: mpmh5038yp
+
+# Completed
 
 [x]Create a product called Special Item which will be assigned to a new category called Special Items. Be sure to add at least 2 images during the product creation
 
 [x]The Special Item should be the only item which shows in this category 
 
-# Unfinished; pseudocode solutions
+# Unfinished w/ pseudocode solutions
 
 []create a feature that will show the product's second image when it is hovered on.
 
@@ -24,5 +28,10 @@ Preview code: mpmh5038yp
 
 []Both buttons should utilize the Storefront API for completion.
 
+* 
 
 []If a customer is logged in - at the top of the category page show a banner that shows some customer details (i.e. name, email, phone ,etc). This should utilize the data that is rendered via Handlebars on the Customer Object.
+
+* {{#if customer}} 
+* {{lang 'account.settings.first_name' }}, {{lang 'account.settings.last_name' }}, {{lang 'account.settings.email' }}, {{lang 'account.settings.phone' }}
+* {{/if}}
